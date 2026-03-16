@@ -15,8 +15,6 @@ spec:
       containers:
         - name: binary-calculator
           image: binary-calculator
-          imagePullPolicy: ifNotPresent
           ports:
             - containerPort: 8080
-              name: http
               
